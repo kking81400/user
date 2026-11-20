@@ -1,0 +1,50 @@
+/* متغیرهای رنگی صفحه پروفایل؛ لایت پیش‌فرض، دارک با کلاس .dark یا data-theme="dark" */
+:root {
+    --pf-card: #ffffff;
+    --pf-field: #ffffff;
+    --pf-muted: #f4f1ef;
+    --pf-border: #d9c9c1;
+    --pf-border-soft: #e3d6cf;
+    --pf-text: #2b211c;
+    --pf-text-muted: #5d514b;
+    --pf-text-faint: #9a8f8a;
+    --pf-brand: #7a5238;
+    --pf-brand-hover: #693f2a;
+    --pf-on-brand: #ffffff;
+    --pf-brand-text: #7a5238;
+    --pf-brand-soft: rgba(122, 82, 56, 0.1);
+    --pf-ring: rgba(122, 82, 56, 0.22);
+    --pf-hover: rgba(0, 0, 0, 0.05);
+    --pf-danger: #dc2626;
+    --pf-skeleton: #ece3de;
+    --pf-overlay: rgba(0, 0, 0, 0.5);
+    --pf-map-from: #f5f7e1;
+    --pf-map-via: #a9c7b6;
+    --pf-map-to: #6f9c8f;
+}
+
+.dark,
+[data-theme="dark"] {
+    color-scheme: dark;
+    --pf-card: #171210;
+    --pf-field: #1f1815;
+    --pf-muted: #1f1815;
+    --pf-border: #3d322c;
+    --pf-border-soft: #3d322c;
+    --pf-text: #f3ebe6;
+    --pf-text-muted: #b9aca5;
+    --pf-text-faint: #7d716b;
+    --pf-brand: #b98562;
+    --pf-brand-hover: #c8966f;
+    --pf-on-brand: #1a120e;
+    --pf-brand-text: #e0bfa5;
+    --pf-brand-soft: rgba(193, 154, 126, 0.15);
+    --pf-ring: rgba(193, 154, 126, 0.28);
+    --pf-hover: rgba(255, 255, 255, 0.07);
+    --pf-danger: #f87171;
+    --pf-skeleton: #2a211c;
+    --pf-overlay: rgba(0, 0, 0, 0.65);
+    --pf-map-from: #2c3a33;
+    --pf-map-via: #25423b;
+    --pf-map-to: #16302b;
+}
